@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ratan fitness</title>
+</head>
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+<style>
+    body {
+
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(gym.jpg);
+        background-size: cover;
+
+
+
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 54px;
+        top: 12px;
+    }
+
+    .mid {
+        display: block;
+        width: 56%;
+        margin: 2px auto;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .right {
+        position: absolute;
+        right: 54px;
+        top: 12px;
+        display: inline-block;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: small;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 3px;
+
+
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 8px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(84, 80, 80);
+    }
+
+    .left div {
+        text-align: center;
+
+    }
+
+    .left img {
+        width: 53px;
+        font-size: 5px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: gray;
+
+
+    }
+
+    .contaner h1 {
+        text-align: center;
+    }
+
+    .contaner {
+        border: 2px solid white;
+        margin: 123px 69px;
+        padding: 13px 14px;
+        width: 43%;
+        border-radius: 8px;
+    }
+
+    .contaner button {
+        display: block;
+        width: 84%;
+        margin: 20px auto;
+    }
+
+    .formgroup input {
+        text-align: center;
+        display: block;
+        width: 284px;
+        padding: 9px;
+        border: 2px solid black;
+        margin: 3px auto;
+        border-radius: 4px;
+        font-size: 12px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+</style>
+
+<body>
+    <!-- <img src="https://cdn.dribbble.com/users/4178120/screenshots/10740976/media/730c57e110ee50154c943c7aefd7f570.jpg" alt=""> -->
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.1Wqd9xfYuA6e_2HgC9g5ZAHaHa&pid=Api&P=0&h=180" alt="">
+            <div>.Rfitnes</div>
+        </div>
+        <!-- mid box for navigation baar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="contaner">
+        <h1>Join the best gym of Magher</h1>
+
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
